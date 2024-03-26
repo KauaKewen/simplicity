@@ -13,3 +13,18 @@
 }
 /* colcoar o font-size para usar como lembrete que por padrão, 1rem equivale a 16px */
 html { font-size: 16px; }
+
+body {
+    color: var(--cor-texto);
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--cor-clara);
+}
+
+body, h1, h2, p, figure, nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
