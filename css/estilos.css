@@ -28,3 +28,19 @@ body, h1, h2, p, figure, nav ul {
 img {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h1 a {
+    color: var(--cor-clara);
+    background-color: var(--cor-escura);
+}
