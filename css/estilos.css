@@ -11,5 +11,5 @@
     --cor-clara : #fff;
     --cor-intermediaria: #ececec;
 }
-/* colcoar o font-size para usar como lembrete que por padrão 1rem equivale a 16px */
+/* colcoar o font-size para usar como lembrete que por padrão, 1rem equivale a 16px */
 html { font-size: 16px; }
