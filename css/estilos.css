@@ -91,9 +91,34 @@ nav h2 a:hover, nav h2 a:focus, .links-menu a:hover, .links-menu a:focus {
     /* fazemos com que eles fiquem um em cima do outro (flex column "coluna flexível") */
     flex-direction: column;
 
-    /* Ativamos position:absolute e ajustamos a posição final dos links usando propriedades de coordenadas. */
+    /* Ativamos position:absolute e ajustamos a posição final dos links usando propriedades de coordenadas */
     position: absolute;
     left: 0;
     right: 0;
     background-color: var(--cor-clara);
+}
+
+/* Exercícios
+1) Crie uma regra CSS para formatar o destaque com as seguintes configurações:
+
+-Altura 500px
+-Imagem de fundo (fundo-destaque)
+-Imagem de fundo deve ficar parada
+-flex com alinhamento totalmente centralizado, e um elemento em cima do outro (ou seja, use o modo coluna)
+
+2) Crie uma regra CSS para formatar o h2 e o p contidos em Destaque. Faça com que os textos fiquem centralizados (text-align) e com cor clara.*/
+
+.destaque {
+    height: 500px;
+    background-image: url(../imagens/fundo-destaque.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque h2, .destaque p {
+    text-align: center;
+    color: var(--cor-clara);
 }
