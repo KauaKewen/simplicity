@@ -51,6 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 12vh;
 }
 
 nav h2 a {
@@ -109,7 +110,7 @@ nav h2 a:hover, nav h2 a:focus, .links-menu a:hover, .links-menu a:focus {
 2) Crie uma regra CSS para formatar o h2 e o p contidos em Destaque. Faça com que os textos fiquem centralizados (text-align) e com cor clara.*/
 
 .destaque {
-    height: 500px;
+    height: 88vh;
     background-image: url(../imagens/fundo-destaque.jpg);
     background-attachment: fixed;
     display: flex;
