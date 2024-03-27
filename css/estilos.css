@@ -122,4 +122,43 @@ nav h2 a:hover, nav h2 a:focus, .links-menu a:hover, .links-menu a:focus {
 .destaque h2, .destaque p {
     text-align: center;
     color: var(--cor-clara);
+
+    /* Etapa 2) aplicar a animação */
+    animation: animaDestaque;
+    animation-duration: 7s;
+}
+
+/* Sobre a função clamp()
+Função útil para redimensionamento responsivo de acordo com certos critérios.
+
+clamp(
+    tamanhoMínimo,
+    tamanhoIdeal/ Variável/ Responsivo
+    tamanhoMáximo
+)*/
+
+.destaque h2 {
+    font-size: clamp(3rem, 10vw, 7rem);
+}
+
+.destaque p {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* Etapa 1) Regra de animação */
+
+@keyframes animaDestaque {
+
+/* Dê (estado inicial, como começa) */
+
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+
+/* Para (estado final, como termina */
+    
+    to {
+        opacity: 1;
+    }
 }
