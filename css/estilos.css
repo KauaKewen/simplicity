@@ -43,4 +43,24 @@ h1 {
 h1 a {
     color: var(--cor-clara);
     background-color: var(--cor-escura);
+    padding: 0.3rem 1rem;
+    border-radius: 6px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 a {
+    color: var(--cor-escura);
+    font-size: 1.2rem;
+    /* background-color: yellow; */
+    padding: 1rem;
+    display: inline-block;
+}
+
+nav h2 a:hover, nav h2 a:focus {
+    background-color: var(--cor-intermediaria);
 }
