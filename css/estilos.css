@@ -125,7 +125,7 @@ nav h2 a:hover, nav h2 a:focus, .links-menu a:hover, .links-menu a:focus {
 
     /* Etapa 2) aplicar a animação */
     animation: animaDestaque;
-    animation-duration: 7s;
+    animation-duration: 5s;
 }
 
 /* Sobre a função clamp()
@@ -161,4 +161,66 @@ clamp(
     to {
         opacity: 1;
     }
+}
+
+article h2 {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: Raleway, sans-serif;
+    color: var(--cor-titulo);
+}
+
+.front-end, .historia, .localizacao {
+    text-align: center;
+}
+
+article p {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+address {
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.historia {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
+    padding-bottom: 1.5rem;
+    width: 100vw;
+    background-size: cover;
+}
+
+.historia h2 {
+    color: var(--cor-clara);
+    text-shadow: 7px 7px 5px var(--cor-escura);
+}
+
+.historia iframe {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.localizacao iframe {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.limitador {
+    width: 95vw;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    height: 30vh;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
