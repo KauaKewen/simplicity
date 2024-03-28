@@ -175,7 +175,7 @@ article h2 {
 }
 
 article p {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     font-size: 1.2rem;
 }
 
@@ -223,4 +223,21 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Regras para as páginas Produtos, Serviços e Contato */
+
+
+.conteudo {
+    background-color: var(--cor-intermediaria);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.conteudo h2 {
+    padding-left: 0;
+    font-size: 1.8rem;
+    border-bottom: solid 2px;
+    margin-bottom: 1rem;
 }
