@@ -287,3 +287,45 @@ tr:nth-child(odd){
 tr:nth-child(even){
     background-color: var(--cor-intermediaria);
 }
+
+td:last-child::before {
+    content: "R$ ";
+}
+
+
+@media screen  and (min-width: 570px) {
+    
+    nav h2 a {
+        display: none;
+    }
+
+    .links-menu {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    .links-menu li {
+        width: 100%;
+    }
+
+    .front-end figure img {
+        height: 150px;
+    }
+}
+
+
+@media screen  and (min-width: 1000px) {
+    
+    html {
+        font-size: 18px;
+    }
+
+    .limitador {
+        max-width: 1000px;
+    }
+
+}
