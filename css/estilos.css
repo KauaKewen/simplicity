@@ -47,11 +47,17 @@ h1 a {
     border-radius: 6px;
 }
 
-header {
+header .limitador {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 12vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor-clara);
 }
 
 nav h2 a {
@@ -291,7 +297,6 @@ tr:nth-child(even){
 td:last-child::before {
     content: "R$ ";
 }
-
 
 @media screen  and (min-width: 570px) {
     
