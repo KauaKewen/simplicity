@@ -55,6 +55,7 @@ header .limitador {
 }
 
 header {
+    z-index: 100;
     position: sticky;
     top: 0;
     background-color: var(--cor-clara);
@@ -297,6 +298,25 @@ tr:nth-child(even){
 td:last-child::before {
     content: "R$ ";
 }
+  /* Estilização serviços */
+ .servicos-img img {
+    border-radius: 100px;
+    transform: scale(0.9);
+    filter: brightness(130%) blur(2px);
+ }
+
+ figure div {
+    text-align: center;
+ }
+
+ figure img:hover {
+    transform: scale(1);
+    border-radius: 40px;
+    transition: 0.5s;
+    filter: none;
+ }
+
+ 
 
 @media screen  and (min-width: 570px) {
     
