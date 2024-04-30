@@ -309,7 +309,7 @@ td:last-child::before {
     text-align: center;
  }
 
- figure img:hover {
+ .servicos-img img:hover {
     transform: scale(1);
     border-radius: 40px;
     transition: 0.5s;
