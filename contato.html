@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contato - Simplicity</title>
+</head>
+<body>
+    <header>
+        <div class="limitador">
+            <h1><a href="index.html">Simplicity</a></h1>
+            <nav>
+                <h2><a href="">Menu &equiv;</a></h2>
+                <ul class="links-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="conteudo limitador">
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum soluta, aliquid natus cumque omnis facere architecto voluptatem quidem recusandae magnam, dicta facilis animi quibusdam perferendis distinctio magni quia nobis?</p>
+            <!-- Método: maneira como os dados serão transmitidos. Opções: get (envia pela URL), post (envia no corpo do formulário [mais seguro para formulários de cadastro em geral]) -->
+            <form action="" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                <input placeholder="Digite o nome completo" name="nome" id="nome">
+                </div>
+                
+                <div>
+                    <label for="E-mail">E-mail:</label>
+                <input placeholder="Digite o seu e-mail" type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="nascimento">Data de nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input  type="tel" name="telefone" id="telefone">
+                </div>
+
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <!-- Deixe sempre um option vazio como primeira opção. Isso forçará o usuário a escolher intencionalmente uma opção válida -->
+                        <option value=""></option>
+                        <option value="">Dúvidas</option>
+                        <option value="">Elogios</option>
+                        <option value="">Reclamações</option>
+                        <option value="">Outros</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Enviar dados</button>
+                
+            </form>
+              
+        </article>
+    </main>
+
+    <footer>
+        <p>
+            Simplicity é um site fictício desenvolvido para fins educacionais &copy; <time>2024</time>
+        </p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
