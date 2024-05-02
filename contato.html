@@ -30,7 +30,7 @@
             <form action="" method="post">
                 <div>
                     <label for="nome">Nome:</label>
-                <input placeholder="Digite o nome completo" name="nome" id="nome">
+                <input required placeholder="Digite o nome completo" name="nome" id="nome">
                 </div>
                 
                 <div>
@@ -42,6 +42,14 @@
                     <label for="nascimento">Data de nascimento:</label>
                     <input type="date" name="nascimento" id="nascimento">
                 </div>
+
+                <!-- INÍCIO HTML PARA CEP/ENDEREÇO -->
+                <div><label for="cep">CEP: <br><span id="status"></span></label>
+                    <div
+                     id="area-do-cep">
+                     <!-- Usamos inputmode numerica para que o teclado virtual mostre números -->
+                     <input inputmode="numeric" placeholder="Somente números" type="text" id="cep" name="cep" required> <br>        <button id="buscar">Buscar</button>    </div></div><div class="campos-restantes">    <label for="endereco">Endereço:</label>    <input type="text" id="endereco" name="endereco" size="30"></div><div class="campos-restantes">    <label for="bairro">Bairro:</label>    <input type="text" id="bairro" name="bairro"></div><div class="campos-restantes">    <label for="cidade">Cidade:</label>    <input type="text" id="cidade" name="cidade"></div><div class="campos-restantes">    <label for="estado">Estado:</label>    <input type="text" id="estado" name="estado">
+                    </div><!-- /FIM HTML PARA CEP/ENDEREÇO -->
 
                 <div>
                     <label for="telefone">Telefone:</label>
@@ -79,5 +87,6 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/contato.js"></script>
 </body>
 </html>
