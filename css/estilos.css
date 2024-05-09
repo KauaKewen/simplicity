@@ -406,6 +406,9 @@ button:hover, button:focus{
     }
 }
 
+#status-do-envio {
+    font-weight: bold;
+}
 
 @media screen  and (min-width: 1000px) {
     
