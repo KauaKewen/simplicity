@@ -35,10 +35,10 @@
             
             <figure>
                 <div class="servicos-img">
-                    <a data-lightbox= "fotos"href="./imagens/desenvolvimento-web.jpg"><img src="./imagens/desenvolvimento-web-mini.jpg" alt=""></a> 
-                    <a data-lightbox= "fotos"href="./imagens/design-grafico.jpg"><img src="./imagens/design-grafico-mini.jpg" alt=""></a> 
-                    <a data-lightbox= "fotos"href="./imagens/marketing-digital.jpg"><img src="./imagens/marketing-digital-mini.jpg" alt=""></a> 
-                    <a data-lightbox= "fotos"href="./imagens/consultoria-treinamento.jpg"><img src="./imagens/consultoria-treinamento-mini.jpg" alt=""></a> 
+                    <a data-title="Proficionais capacitados" data-lightbox= "fotos"href="./imagens/desenvolvimento-web.jpg"><img src="./imagens/desenvolvimento-web-mini.jpg" alt=""></a> 
+                    <a data-title="Nosso time sabe tudo" data-lightbox= "fotos"href="./imagens/design-grafico.jpg"><img src="./imagens/design-grafico-mini.jpg" alt=""></a> 
+                    <a data-title="Seu produto ou empresa será conhecido" data-lightbox= "fotos"href="./imagens/marketing-digital.jpg"><img src="./imagens/marketing-digital-mini.jpg" alt=""></a> 
+                    <a data-title="Profissionais criativos" data-lightbox= "fotos"href="./imagens/consultoria-treinamento.jpg"><img src="./imagens/consultoria-treinamento-mini.jpg" alt=""></a> 
                 </div>
             </figure>
          
@@ -63,6 +63,15 @@
 
     <!-- Importação do JS do plugin lightbox -->
     <script src="lightbox/js/lightbox.min.js"></script>
+    
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'albumLabel': "Foto %1 de %2"
+        })
+    </script>
+    
 
 
     <script src="js/menu.js"></script>
