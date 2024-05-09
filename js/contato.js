@@ -56,7 +56,7 @@ botaoBuscar.addEventListener("click", async function(event){
 
         /* Removendo a classe usando um loop */
 
-        for(const campo of camposRestantes){
+        for(const campo of camposAdicionais){
             campo.classList.remove("campos-restantes")
         }
 
